@@ -152,13 +152,16 @@
             </div>
           </div>
 
+
           <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-florist bg-lg bx-fade-up"></i></div>
               <h4><a href="">Pupuk</a></h4>
               <div class="card-group">
-                <div class="card shadow gallery-item" data-aos="fade-up" data-aos-delay="600 ">
-                  <div class="gallery-img"><img src="<?= base_url() ?>/template/a/assets/img/porlak.jpeg" class="card-img-top"></div>
+                <div class=" shadow gallery-item" data-aos="fade-up" data-aos-delay="600 ">
+                  <div class="gallery-img">
+                    <img src="<?= base_url() ?>/template/a/assets/img/pupuk.png" style="width: 300px; height: 193px;" class="card-img-top">
+                  </div>
                 </div>
               </div>
               <p>Pupuk kompos tanaman akan dipenuhi dari gulma enceng gondok yang dimasukkan kedalam Biopori. Kebutuhan enceng gondok ini akan di supply melalui kemitraan dengan petani.</p>
@@ -202,6 +205,8 @@
     </section>
 
     <!-- end PKBL -->
+
+
 
 
     <!-- ======= Cta Section ======= -->
@@ -377,6 +382,10 @@
           .get-started-btn,
           .scrollto {
             margin-right: 20px;
+          }
+
+          .icon-box {
+            width: 320px;
           }
 
 
